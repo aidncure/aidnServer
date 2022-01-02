@@ -10,7 +10,7 @@ import Stripe from "stripe";
 const stripe = Stripe(SECRET_KEY, { apiVersion: "2020-08-27" });
 
 app.listen(port, () => {
-  console.log(`Example app listening at https://aidnpay.herokuapp.com:${port}`);
+  console.log(`Example app listening at http://192.168.1.4:${port}`);
 });
 
 app.post("/pay", async (req, res) => {
