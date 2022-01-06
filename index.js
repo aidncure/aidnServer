@@ -1,7 +1,7 @@
 import express from "express";
 
 const app = express();
-const port = process.env.PORT || 3000; //add your port here
+const port = process.env.PORT || 8080; //add your port here
 const PUBLISHABLE_KEY = "pk_test_51K84PtSGPMJ99FNgX57aaoX5J5UACm4MVzTxzs46ldk9LP9sbnEX6prObXtDcPf9baInJKUMj5uYBEUwERbwo82b00oolvcUS9";
 const SECRET_KEY = "sk_test_51K84PtSGPMJ99FNgU57xPXcabv5IcGnheGUcNzDiDLAdcgAJFBfNkES48FqaPNvfqxcn1zGEHH9Ui1Y9F5DBWeZk00wyEo7VWR";
 import Stripe from "stripe";
